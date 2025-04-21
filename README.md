@@ -1,38 +1,48 @@
-# sv
+# Games.ImplodedPotato.com
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+A web site where a potato which has been imploded host games to be played on the web!
 
-## Creating a project
+This is a subdomain of [ImplodedPotato.com](https://github.com/ImplodedPotato/implodedpotato.com).
 
-If you're seeing this, you've probably already done this step. Congrats!
 
-```bash
-# create a new project in the current directory
-npx sv create
+## To Run:
 
-# create a new project in my-app
-npx sv create my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+``` Shell
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## To Build:
 
-To create a production version of your app:
-
-```bash
+``` Shell
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+## To Build And Deploy:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+``` Shell
+npm run deploy
+```
+
+## Avaible Games
+
+1. [Galaga-Like-2D](#galaga-like-2d)
+2. [Galaga-Like-3D](#galaga-like-3d)
+
+## How Are These Made?
+
+All of these games are either coded in C or C++ with framworks, such as [Raylib](https://raylib.com) or [SDL](https://www.libsdl.org/). 
+I then use [emscripten](https://emscripten.org/) to port the game to the web
+
+### Galaga-Like-2D
+
+Code: [GitHub](https://github.com/ImplodedPotato/Galaga-Like-2D)\
+Play: [Games.ImplodedPotato.com/Galaga-Like-2D](https://games.implodedpotato.com/Galaga-Like-2D/)\
+Coded in C with [Raylib](https://www.raylib.com/)\
+Based on the Clear Code's python tutorial on [YouTube](https://www.youtube.com/watch?v=UoAsDlUwjy0&t=15704s)
+
+### Galaga-Like-3D
+
+Code: [GitHub](https://github.com/ImplodedPotato/Galaga-Like-3D)\
+Play: [Games.ImplodedPotato.com/Galaga-Like-3D](https://games.implodedpotato.com/Galaga-Like-3D/)\
+Coded in C++ with [Raylib](https://www.raylib.com/)\
+Based on the Clear Code's python tutorial on [YouTube](https://www.youtube.com/watch?v=UoAsDlUwjy0&t=15704s)
