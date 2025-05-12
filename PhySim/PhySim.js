@@ -31,7 +31,7 @@ if (ENVIRONMENT_IS_NODE) {
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpxw7dabhq.js
+// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmptf7m9tjb.js
 
   Module['expectedDataFileDownloads'] ??= 0;
   Module['expectedDataFileDownloads']++;
@@ -212,21 +212,21 @@ Module['FS_createPath']("/", "assets", true, true);
 
   })();
 
-// end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpxw7dabhq.js
-// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmp05dyygld.js
+// end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmptf7m9tjb.js
+// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpla8fypu8.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if (Module['$ww'] || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmp05dyygld.js
-// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpobrvzl4r.js
+  // end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpla8fypu8.js
+// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpe4r45wvy.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpobrvzl4r.js
+  // end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpe4r45wvy.js
 
 
 var arguments_ = [];
@@ -10386,49 +10386,49 @@ function checkIncomingModuleAPI() {
   ignoredModuleProp('fetchSettings');
 }
 var ASM_CONSTS = {
-  124228: () => { if (document.fullscreenElement) return 1; },  
- 124274: () => { return Module.canvas.width; },  
- 124306: () => { return parseInt(Module.canvas.style.width); },  
- 124354: () => { document.exitFullscreen(); },  
- 124381: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
- 124454: () => { if (document.fullscreenElement) return 1; },  
- 124500: () => { return Module.canvas.width; },  
- 124532: () => { return screen.width; },  
- 124557: () => { document.exitFullscreen(); },  
- 124584: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
- 124717: () => { return window.innerWidth; },  
- 124743: () => { return window.innerHeight; },  
- 124770: () => { if (document.fullscreenElement) return 1; },  
- 124816: () => { return Module.canvas.width; },  
- 124848: () => { return parseInt(Module.canvas.style.width); },  
- 124896: () => { if (document.fullscreenElement) return 1; },  
- 124942: () => { return Module.canvas.width; },  
- 124974: () => { return screen.width; },  
- 124999: () => { return window.innerWidth; },  
- 125025: () => { return window.innerHeight; },  
- 125052: () => { if (document.fullscreenElement) return 1; },  
- 125098: () => { return Module.canvas.width; },  
- 125130: () => { return screen.width; },  
- 125155: () => { document.exitFullscreen(); },  
- 125182: () => { if (document.fullscreenElement) return 1; },  
- 125228: () => { return Module.canvas.width; },  
- 125260: () => { return parseInt(Module.canvas.style.width); },  
- 125308: () => { document.exitFullscreen(); },  
- 125335: ($0) => { Module.canvas.style.opacity = $0; },  
- 125373: () => { return screen.width; },  
- 125398: () => { return screen.height; },  
- 125424: () => { return window.screenX; },  
- 125451: () => { return window.screenY; },  
- 125478: () => { return window.devicePixelRatio; },  
- 125514: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 125567: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
- 125618: () => { Module.canvas.style.cursor = 'none'; },  
- 125655: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 125911: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
- 125962: () => { if (document.fullscreenElement) return 1; },  
- 126008: () => { return window.innerWidth; },  
- 126034: () => { return window.innerHeight; },  
- 126061: () => { if (document.pointerLockElement) return 1; }
+  124764: () => { if (document.fullscreenElement) return 1; },  
+ 124810: () => { return Module.canvas.width; },  
+ 124842: () => { return parseInt(Module.canvas.style.width); },  
+ 124890: () => { document.exitFullscreen(); },  
+ 124917: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
+ 124990: () => { if (document.fullscreenElement) return 1; },  
+ 125036: () => { return Module.canvas.width; },  
+ 125068: () => { return screen.width; },  
+ 125093: () => { document.exitFullscreen(); },  
+ 125120: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
+ 125253: () => { return window.innerWidth; },  
+ 125279: () => { return window.innerHeight; },  
+ 125306: () => { if (document.fullscreenElement) return 1; },  
+ 125352: () => { return Module.canvas.width; },  
+ 125384: () => { return parseInt(Module.canvas.style.width); },  
+ 125432: () => { if (document.fullscreenElement) return 1; },  
+ 125478: () => { return Module.canvas.width; },  
+ 125510: () => { return screen.width; },  
+ 125535: () => { return window.innerWidth; },  
+ 125561: () => { return window.innerHeight; },  
+ 125588: () => { if (document.fullscreenElement) return 1; },  
+ 125634: () => { return Module.canvas.width; },  
+ 125666: () => { return screen.width; },  
+ 125691: () => { document.exitFullscreen(); },  
+ 125718: () => { if (document.fullscreenElement) return 1; },  
+ 125764: () => { return Module.canvas.width; },  
+ 125796: () => { return parseInt(Module.canvas.style.width); },  
+ 125844: () => { document.exitFullscreen(); },  
+ 125871: ($0) => { Module.canvas.style.opacity = $0; },  
+ 125909: () => { return screen.width; },  
+ 125934: () => { return screen.height; },  
+ 125960: () => { return window.screenX; },  
+ 125987: () => { return window.screenY; },  
+ 126014: () => { return window.devicePixelRatio; },  
+ 126050: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 126103: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 126154: () => { Module.canvas.style.cursor = 'none'; },  
+ 126191: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 126447: ($0) => { Module.canvas.style.cursor = UTF8ToString($0); },  
+ 126498: () => { if (document.fullscreenElement) return 1; },  
+ 126544: () => { return window.innerWidth; },  
+ 126570: () => { return window.innerHeight; },  
+ 126597: () => { if (document.pointerLockElement) return 1; }
 };
 function GetCanvasIdJs() { var canvasId = "#" + Module.canvas.id; var lengthBytes = lengthBytesUTF8(canvasId) + 1; var stringOnWasmHeap = _malloc(lengthBytes); stringToUTF8(canvasId, stringOnWasmHeap, lengthBytes); return stringOnWasmHeap; }
 var wasmImports = {
@@ -11021,8 +11021,6 @@ var wasmImports = {
   /** @export */
   invoke_vii,
   /** @export */
-  invoke_viifff,
-  /** @export */
   invoke_viii,
   /** @export */
   invoke_viiii,
@@ -11057,20 +11055,19 @@ var ___cxa_decrement_exception_refcount = createExportWrapper('__cxa_decrement_e
 var ___get_exception_message = createExportWrapper('__get_exception_message', 3);
 var ___cxa_can_catch = createExportWrapper('__cxa_can_catch', 3);
 var ___cxa_get_exception_ptr = createExportWrapper('__cxa_get_exception_ptr', 1);
-var dynCall_viii = Module['dynCall_viii'] = createExportWrapper('dynCall_viii', 4);
 var dynCall_vii = Module['dynCall_vii'] = createExportWrapper('dynCall_vii', 3);
 var dynCall_vi = Module['dynCall_vi'] = createExportWrapper('dynCall_vi', 2);
+var dynCall_viiiii = Module['dynCall_viiiii'] = createExportWrapper('dynCall_viiiii', 6);
+var dynCall_viii = Module['dynCall_viii'] = createExportWrapper('dynCall_viii', 4);
 var dynCall_viff = Module['dynCall_viff'] = createExportWrapper('dynCall_viff', 4);
-var dynCall_vff = Module['dynCall_vff'] = createExportWrapper('dynCall_vff', 3);
+var dynCall_ii = Module['dynCall_ii'] = createExportWrapper('dynCall_ii', 2);
 var dynCall_vifff = Module['dynCall_vifff'] = createExportWrapper('dynCall_vifff', 5);
-var dynCall_viifff = Module['dynCall_viifff'] = createExportWrapper('dynCall_viifff', 6);
+var dynCall_vff = Module['dynCall_vff'] = createExportWrapper('dynCall_vff', 3);
+var dynCall_iiii = Module['dynCall_iiii'] = createExportWrapper('dynCall_iiii', 4);
 var dynCall_iii = Module['dynCall_iii'] = createExportWrapper('dynCall_iii', 3);
 var dynCall_v = Module['dynCall_v'] = createExportWrapper('dynCall_v', 1);
-var dynCall_ii = Module['dynCall_ii'] = createExportWrapper('dynCall_ii', 2);
-var dynCall_viiiii = Module['dynCall_viiiii'] = createExportWrapper('dynCall_viiiii', 6);
 var dynCall_viiii = Module['dynCall_viiii'] = createExportWrapper('dynCall_viiii', 5);
 var dynCall_vidd = Module['dynCall_vidd'] = createExportWrapper('dynCall_vidd', 4);
-var dynCall_iiii = Module['dynCall_iiii'] = createExportWrapper('dynCall_iiii', 4);
 var dynCall_iiiii = Module['dynCall_iiiii'] = createExportWrapper('dynCall_iiiii', 5);
 var dynCall_iiiiii = Module['dynCall_iiiiii'] = createExportWrapper('dynCall_iiiiii', 6);
 var dynCall_vffff = Module['dynCall_vffff'] = createExportWrapper('dynCall_vffff', 5);
@@ -11091,17 +11088,6 @@ var _asyncify_start_unwind = createExportWrapper('asyncify_start_unwind', 1);
 var _asyncify_stop_unwind = createExportWrapper('asyncify_stop_unwind', 0);
 var _asyncify_start_rewind = createExportWrapper('asyncify_start_rewind', 1);
 var _asyncify_stop_rewind = createExportWrapper('asyncify_stop_rewind', 0);
-
-function invoke_viii(index,a1,a2,a3) {
-  var sp = stackSave();
-  try {
-    dynCall_viii(index,a1,a2,a3);
-  } catch(e) {
-    stackRestore(sp);
-    if (!(e instanceof EmscriptenEH)) throw e;
-    _setThrew(1, 0);
-  }
-}
 
 function invoke_vii(index,a1,a2) {
   var sp = stackSave();
@@ -11125,6 +11111,28 @@ function invoke_vi(index,a1) {
   }
 }
 
+function invoke_viiiii(index,a1,a2,a3,a4,a5) {
+  var sp = stackSave();
+  try {
+    dynCall_viiiii(index,a1,a2,a3,a4,a5);
+  } catch(e) {
+    stackRestore(sp);
+    if (!(e instanceof EmscriptenEH)) throw e;
+    _setThrew(1, 0);
+  }
+}
+
+function invoke_viii(index,a1,a2,a3) {
+  var sp = stackSave();
+  try {
+    dynCall_viii(index,a1,a2,a3);
+  } catch(e) {
+    stackRestore(sp);
+    if (!(e instanceof EmscriptenEH)) throw e;
+    _setThrew(1, 0);
+  }
+}
+
 function invoke_viff(index,a1,a2,a3) {
   var sp = stackSave();
   try {
@@ -11136,10 +11144,10 @@ function invoke_viff(index,a1,a2,a3) {
   }
 }
 
-function invoke_vff(index,a1,a2) {
+function invoke_ii(index,a1) {
   var sp = stackSave();
   try {
-    dynCall_vff(index,a1,a2);
+    return dynCall_ii(index,a1);
   } catch(e) {
     stackRestore(sp);
     if (!(e instanceof EmscriptenEH)) throw e;
@@ -11158,10 +11166,21 @@ function invoke_vifff(index,a1,a2,a3,a4) {
   }
 }
 
-function invoke_viifff(index,a1,a2,a3,a4,a5) {
+function invoke_vff(index,a1,a2) {
   var sp = stackSave();
   try {
-    dynCall_viifff(index,a1,a2,a3,a4,a5);
+    dynCall_vff(index,a1,a2);
+  } catch(e) {
+    stackRestore(sp);
+    if (!(e instanceof EmscriptenEH)) throw e;
+    _setThrew(1, 0);
+  }
+}
+
+function invoke_iiii(index,a1,a2,a3) {
+  var sp = stackSave();
+  try {
+    return dynCall_iiii(index,a1,a2,a3);
   } catch(e) {
     stackRestore(sp);
     if (!(e instanceof EmscriptenEH)) throw e;
@@ -11173,17 +11192,6 @@ function invoke_iii(index,a1,a2) {
   var sp = stackSave();
   try {
     return dynCall_iii(index,a1,a2);
-  } catch(e) {
-    stackRestore(sp);
-    if (!(e instanceof EmscriptenEH)) throw e;
-    _setThrew(1, 0);
-  }
-}
-
-function invoke_ii(index,a1) {
-  var sp = stackSave();
-  try {
-    return dynCall_ii(index,a1);
   } catch(e) {
     stackRestore(sp);
     if (!(e instanceof EmscriptenEH)) throw e;
@@ -11213,32 +11221,10 @@ function invoke_iiiii(index,a1,a2,a3,a4) {
   }
 }
 
-function invoke_viiiii(index,a1,a2,a3,a4,a5) {
-  var sp = stackSave();
-  try {
-    dynCall_viiiii(index,a1,a2,a3,a4,a5);
-  } catch(e) {
-    stackRestore(sp);
-    if (!(e instanceof EmscriptenEH)) throw e;
-    _setThrew(1, 0);
-  }
-}
-
 function invoke_v(index) {
   var sp = stackSave();
   try {
     dynCall_v(index);
-  } catch(e) {
-    stackRestore(sp);
-    if (!(e instanceof EmscriptenEH)) throw e;
-    _setThrew(1, 0);
-  }
-}
-
-function invoke_iiii(index,a1,a2,a3) {
-  var sp = stackSave();
-  try {
-    return dynCall_iiii(index,a1,a2,a3);
   } catch(e) {
     stackRestore(sp);
     if (!(e instanceof EmscriptenEH)) throw e;
