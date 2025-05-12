@@ -7,20 +7,27 @@
         },
         {
             h1: "Galaga-like-2D",
-            h2: "A 2D C game made with Raylib",
+            h2: "Made in C with Raylib",
             link: "/Galaga-Like-2D"
         },
         {
             h1: "Galaga-like-3D",
-            h2: "A 3D C++ game made with Raylib",
+            h2: "Made in C++ with Raylib",
             link: "/Galaga-Like-3D"
+        },
+        {
+            h1: "Simple Physics Sim",
+            h2: "Made in Rust with Raylib",
+            link: "/PhySim"
         }
     ]
 </script>
 
 <svelte:head>
     <link rel="preload" as="font" href="/FiraCode-Retina.ttf" type="font/ttf" crossorigin="anonymous">
+    <link rel="stylesheet" href="shared.css">
 </svelte:head>
+
 <h1>Welcome to Games.ImplodedPotato.com</h1>
 <p>Here you will find the 'many' games of a Potato which has been Imploded</p>
 
@@ -40,21 +47,6 @@
 </a>
 
 <style>
-    :global {
-        body {
-            background-color: #282C34;
-            margin: auto;
-            padding: 10px;
-            font-size: initial;
-        }
-
-        @media screen and (max-width: 400px) {
-            body {
-                font-size: small;
-            }
-        }
-    }
-
     .main-buttons-capsule {
         padding-top: 5vh;
         display: grid;
@@ -94,18 +86,5 @@
     a {
         color: aquamarine;
         text-decoration: none;
-    }
-
-    h1, p, div {
-        color: antiquewhite;
-        text-align: center;
-        font-family: "fira-code",monospace;
-    }
-
-    @font-face {
-        font-family: 'fira-code';
-        font-style: normal;
-        font-weight: 200;
-        src: url("/FiraCode-Retina.ttf");
     }
 </style>

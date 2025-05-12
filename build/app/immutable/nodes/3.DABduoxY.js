@@ -1,1 +1,0 @@
-import{t as r,a as i}from"../chunks/XLx_8S5w.js";import"../chunks/CGloUUSq.js";import{s as o}from"../chunks/B5roUOfP.js";var m=r('<iframe title="Galaga-Like-2D" style="width: 100%; height: 100vh; border: none;"></iframe>');function n(t){let e="/Galaga-Like-2D/Galaga-Like-2D.html";var a=m();o(a,"src",e),i(t,a)}export{n as component};
