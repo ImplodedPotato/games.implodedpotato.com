@@ -19,7 +19,12 @@
             h1: "Simple Physics Sim",
             h2: "Made in Rust with Raylib",
             link: "/PhySim"
-        }
+        },
+        {
+            h1: "mov_block-0.1.1",
+            h2: "Made in bevy for the 6th bevy Jam",
+            link: "/mov_block"
+        },
     ]
 </script>
 
