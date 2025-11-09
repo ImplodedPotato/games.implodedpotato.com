@@ -21,15 +21,5 @@
         <p>Tilde => Show Hitboxes</p>
     </div>
 </div>
-<style>
-    :global {
-        iframe {
-
-        }
-
-    }
-
-</style>
-
 
 

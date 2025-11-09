@@ -6,14 +6,10 @@
             link: "https://implodedpotato.com"
         },
         {
-            h1: "Galaga-like-2D",
+            h1: "cand",
             h2: "Made in C with Raylib",
-            link: "/Galaga-Like-2D"
-        },
-        {
-            h1: "Galaga-like-3D",
-            h2: "Made in C++ with Raylib",
-            link: "/Galaga-Like-3D"
+            h3: "A sand simulator",
+            link: "/cand"
         },
         {
             h1: "Simple Physics Sim",
@@ -23,8 +19,24 @@
         {
             h1: "mov_block-0.1.1",
             h2: "Made in bevy for the 6th bevy Jam",
-            link: "/mov_block"
+            link: "/mov_block/0.1.1"
         },
+        {
+            h1: "mov_block-0.1.2",
+            h2: "Made in bevy for the 6th bevy Jam",
+            link: "/mov_block/0.1.2"
+        },
+        {
+            h1: "Galaga-like-2D",
+            h2: "Made in C with Raylib",
+            link: "/Galaga-Like-2D"
+        },
+        {
+            h1: "Galaga-like-3D",
+            h2: "Made in C++ with Raylib",
+            link: "/Galaga-Like-3D"
+        },
+
     ]
 </script>
 
@@ -41,7 +53,8 @@
         <a href="{button.link}">
             <div class="main-buttons">
                 <p>{button.h1}</p>
-                <p style="margin-top: 10px; margin-bottom: 50px">{button.h2}</p>
+                <p style="margin-top: 10px; margin-bottom: 10px">{button.h2}</p>
+                <p style="margin-bottom: 50px">{button.h3}</p>
             </div>
         </a>
     {/each}
