@@ -56,7 +56,12 @@
 				var e = wasmExports;
 
 				// Calls any procedure marked with @init
-				e._start();
+				try {
+				    e._start();
+				} catch (e) {
+				    console.log("This happend due to an attempt to allocate memory before game_init() is called. Such as `a_map : map[i8]string = { ... }` being declared at the top level. Which causes an allocation before an non-crashing allocator has been assigned.")
+				    console.log(e)
+				}
 
 				// See source/main_web/main_web.odin for main_start,
 				// main_update and main_end.
