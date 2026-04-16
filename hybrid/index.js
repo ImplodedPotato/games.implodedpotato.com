@@ -71,7 +71,7 @@ var ENVIRONMENT_IS_SHELL = !ENVIRONMENT_IS_WEB && !ENVIRONMENT_IS_NODE && !ENVIR
 
 // --pre-jses are emitted after the Module integration code, so that they can
 // refer to Module (if they choose; they can also define Module)
-// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpmhhlk27z.js
+// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmp2_jsy2ko.js
 
   if (!Module['expectedDataFileDownloads']) Module['expectedDataFileDownloads'] = 0;
   Module['expectedDataFileDownloads']++;
@@ -206,21 +206,21 @@ Module['FS_createPath']("/assets", "fonts", true, true);
 
   })();
 
-// end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpmhhlk27z.js
-// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpj0pclxil.js
+// end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmp2_jsy2ko.js
+// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpzpo5ier2.js
 
     // All the pre-js content up to here must remain later on, we need to run
     // it.
     if ((typeof ENVIRONMENT_IS_WASM_WORKER != 'undefined' && ENVIRONMENT_IS_WASM_WORKER) || (typeof ENVIRONMENT_IS_PTHREAD != 'undefined' && ENVIRONMENT_IS_PTHREAD) || (typeof ENVIRONMENT_IS_AUDIO_WORKLET != 'undefined' && ENVIRONMENT_IS_AUDIO_WORKLET)) Module['preRun'] = [];
     var necessaryPreJSTasks = Module['preRun'].slice();
-  // end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpj0pclxil.js
-// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpt85vj4ul.js
+  // end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpzpo5ier2.js
+// include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpslopeleg.js
 
     if (!Module['preRun']) throw 'Module.preRun should exist because file support used it; did a pre-js delete it?';
     necessaryPreJSTasks.forEach((task) => {
       if (Module['preRun'].indexOf(task) < 0) throw 'All preRun tasks that exist before user pre-js code should remain after; did you replace Module or modify Module.preRun?';
     });
-  // end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpt85vj4ul.js
+  // end include: /var/folders/_h/03ch86gd62d153l0b7jqxf6h0000gn/T/tmpslopeleg.js
 
 
 var arguments_ = [];
@@ -9362,48 +9362,48 @@ function checkIncomingModuleAPI() {
   ignoredModuleProp('onSbrkGrow');
 }
 var ASM_CONSTS = {
-  149192: () => { if (document.fullscreenElement) return 1; },  
- 149238: () => { return document.getElementById('canvas').width; },  
- 149290: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 149358: () => { document.exitFullscreen(); },  
- 149385: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
- 149458: () => { if (document.fullscreenElement) return 1; },  
- 149504: () => { return document.getElementById('canvas').width; },  
- 149556: () => { return screen.width; },  
- 149581: () => { document.exitFullscreen(); },  
- 149608: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
- 149741: () => { return window.innerWidth; },  
- 149767: () => { return window.innerHeight; },  
- 149794: () => { if (document.fullscreenElement) return 1; },  
- 149840: () => { return document.getElementById('canvas').width; },  
- 149892: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 149960: () => { if (document.fullscreenElement) return 1; },  
- 150006: () => { return document.getElementById('canvas').width; },  
- 150058: () => { return screen.width; },  
- 150083: () => { return window.innerWidth; },  
- 150109: () => { return window.innerHeight; },  
- 150136: () => { if (document.fullscreenElement) return 1; },  
- 150182: () => { return document.getElementById('canvas').width; },  
- 150234: () => { return screen.width; },  
- 150259: () => { document.exitFullscreen(); },  
- 150286: () => { if (document.fullscreenElement) return 1; },  
- 150332: () => { return document.getElementById('canvas').width; },  
- 150384: () => { return parseInt(document.getElementById('canvas').style.width); },  
- 150452: () => { document.exitFullscreen(); },  
- 150479: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
- 150537: () => { return screen.width; },  
- 150562: () => { return screen.height; },  
- 150588: () => { return window.screenX; },  
- 150615: () => { return window.screenY; },  
- 150642: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
- 150695: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
- 150766: () => { document.getElementById('canvas').style.cursor = 'none'; },  
- 150823: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
- 151079: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
- 151150: () => { if (document.fullscreenElement) return 1; },  
- 151196: () => { return window.innerWidth; },  
- 151222: () => { return window.innerHeight; },  
- 151249: () => { if (document.pointerLockElement) return 1; }
+  149176: () => { if (document.fullscreenElement) return 1; },  
+ 149222: () => { return document.getElementById('canvas').width; },  
+ 149274: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 149342: () => { document.exitFullscreen(); },  
+ 149369: () => { setTimeout(function() { Module.requestFullscreen(false, false); }, 100); },  
+ 149442: () => { if (document.fullscreenElement) return 1; },  
+ 149488: () => { return document.getElementById('canvas').width; },  
+ 149540: () => { return screen.width; },  
+ 149565: () => { document.exitFullscreen(); },  
+ 149592: () => { setTimeout(function() { Module.requestFullscreen(false, true); setTimeout(function() { canvas.style.width="unset"; }, 100); }, 100); },  
+ 149725: () => { return window.innerWidth; },  
+ 149751: () => { return window.innerHeight; },  
+ 149778: () => { if (document.fullscreenElement) return 1; },  
+ 149824: () => { return document.getElementById('canvas').width; },  
+ 149876: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 149944: () => { if (document.fullscreenElement) return 1; },  
+ 149990: () => { return document.getElementById('canvas').width; },  
+ 150042: () => { return screen.width; },  
+ 150067: () => { return window.innerWidth; },  
+ 150093: () => { return window.innerHeight; },  
+ 150120: () => { if (document.fullscreenElement) return 1; },  
+ 150166: () => { return document.getElementById('canvas').width; },  
+ 150218: () => { return screen.width; },  
+ 150243: () => { document.exitFullscreen(); },  
+ 150270: () => { if (document.fullscreenElement) return 1; },  
+ 150316: () => { return document.getElementById('canvas').width; },  
+ 150368: () => { return parseInt(document.getElementById('canvas').style.width); },  
+ 150436: () => { document.exitFullscreen(); },  
+ 150463: ($0) => { document.getElementById('canvas').style.opacity = $0; },  
+ 150521: () => { return screen.width; },  
+ 150546: () => { return screen.height; },  
+ 150572: () => { return window.screenX; },  
+ 150599: () => { return window.screenY; },  
+ 150626: ($0) => { navigator.clipboard.writeText(UTF8ToString($0)); },  
+ 150679: ($0) => { document.getElementById("canvas").style.cursor = UTF8ToString($0); },  
+ 150750: () => { document.getElementById('canvas').style.cursor = 'none'; },  
+ 150807: ($0, $1, $2, $3) => { try { navigator.getGamepads()[$0].vibrationActuator.playEffect('dual-rumble', { startDelay: 0, duration: $3, weakMagnitude: $1, strongMagnitude: $2 }); } catch (e) { try { navigator.getGamepads()[$0].hapticActuators[0].pulse($2, $3); } catch (e) { } } },  
+ 151063: ($0) => { document.getElementById('canvas').style.cursor = UTF8ToString($0); },  
+ 151134: () => { if (document.fullscreenElement) return 1; },  
+ 151180: () => { return window.innerWidth; },  
+ 151206: () => { return window.innerHeight; },  
+ 151233: () => { if (document.pointerLockElement) return 1; }
 };
 
 // Imports from the Wasm binary.
